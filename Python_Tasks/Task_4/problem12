@@ -1,0 +1,18 @@
+#12
+#Introduction to Sets
+#https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
+
+
+def average(array):
+    # your code goes here
+
+
+    # Step 1: Convert list to set (remove duplicates)
+    distinct_heights = set(arr)
+    
+    # Step 2: Calculate average
+    return sum(distinct_heights) / len(distinct_heights)
+
+
+if __name__ == '__main__':
+
